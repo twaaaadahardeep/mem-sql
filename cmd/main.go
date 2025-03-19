@@ -88,5 +88,5 @@ func main() {
 	r := bufio.NewReader(os.Stdin)
 	fmt.Println("Welcome to mem-sql")
 
-	go runRepl(m, r)
+	runRepl(m, r)
 }
